@@ -1,0 +1,41 @@
+body{
+    background-image: url("img/mar.jpeg");
+    background-position:center;
+    background-size:60%;
+    background-repeat: repeat;
+    height: 100%;
+}
+
+@font-face {
+    font-family: "Fredoka";
+    src: url("fonts/FredokaOne-Regular.ttf");
+}
+
+.centrar{
+    margin: auto;
+    width: 20%;
+    padding-top: 50px;
+}
+
+.photo{
+    height:200px;
+    width:200px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 100px;
+}
+
+h1, h2 {
+    font-family: "Fredoka";
+    font-weight: bold;
+    color: white;
+}
+
+h1{
+    font-size: 180%;
+}
+
+h2{
+    padding-left: 36px;
+}
